@@ -96,6 +96,8 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/19ef2df8-a1c8-42c9-b01a-d3f69e51b055)
 
  **JK FLIPFLOP**
+
+ 
  module jk(j,k,clk,rst,Q);
 
 input j,k,clk,rst;
@@ -134,6 +136,8 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/9a192bb7-5ac1-4073-863e-d4ceacfa262f)
 
 **T FLIPFLOP**
+
+
 module tff(t,clk,rst,Q);
 
 input t,clk,rst;
@@ -164,6 +168,8 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/5fc4a516-f50e-4020-b9e1-64623b9136a0)
 
 **D FLIPFLOP**
+
+
 module dff(d,clk,rst,Q);
 
 input d,clk,rst;
@@ -193,6 +199,8 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/442b5e83-98a9-46c0-9a4c-dedda2736565)
 
 **4 bit UPDOWNCOUNTER**
+
+
 module updown(clk,rst,updown,out);
 
 input clk,rst,updown;
@@ -246,6 +254,8 @@ endmodule
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/12cf0249-5bff-4ae7-a942-174592aacabe)
 
 **RIPPLE CARRY COUNTER**
+
+
 module ripple_carry_counter(q, clk, reset);
 
 output [3:0] q;

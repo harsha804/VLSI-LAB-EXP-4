@@ -299,6 +299,7 @@ endmodule
 **OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/3b5d999a-62a9-49fb-99d2-e75aeabdd616)
 
-**RESULT**
+**RESULT:**
+
 Thus simulate and synthesis JK-Flipflop, SR-Flipflop, T-Flipflop, D-Flipflop And counters was succesfully executed and verified.
 

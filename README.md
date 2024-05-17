@@ -1,10 +1,10 @@
 # VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+# SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-# AIM: 
+**AIM**
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
-# APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 Xilinx 14.7
 Spartan6 FPGA
@@ -36,7 +36,7 @@ COUNTER
 
 
   
-PROCEDURE:
+**PROCEDURE:**
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -51,9 +51,10 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-VERILOG CODE
+**VERILOG CODE**
 
- # SR FLIPFLOP
+ **SR FLIPFLOP** 
+ 
  module SR(clk,s,r,rst,q );
 
 input s,r,clk,rst;
@@ -90,10 +91,10 @@ end
 
 endmodule
 
-OUTPUT 
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/19ef2df8-a1c8-42c9-b01a-d3f69e51b055)
 
- # JK FLIPFLOP
+ **JK FLIPFLOP**
  module jk(j,k,clk,rst,Q);
 
 input j,k,clk,rst;
@@ -128,10 +129,10 @@ end
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/9a192bb7-5ac1-4073-863e-d4ceacfa262f)
 
-# T FLIPFLOP
+**T FLIPFLOP**
 module tff(t,clk,rst,Q);
 
 input t,clk,rst;
@@ -158,10 +159,10 @@ end
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/5fc4a516-f50e-4020-b9e1-64623b9136a0)
 
-# D FLIPFLOP
+**D FLIPFLOP**
 module dff(d,clk,rst,Q);
 
 input d,clk,rst;
@@ -184,13 +185,13 @@ end
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/fad65d46-97fd-4f86-832e-916aa9a1a303)
 
-# COUNTER
+**COUNTER**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/442b5e83-98a9-46c0-9a4c-dedda2736565)
 
-4 bit UPDOWNCOUNTER
+**4 bit UPDOWNCOUNTER**
 module updown(clk,rst,updown,out);
 
 input clk,rst,updown;
@@ -213,10 +214,10 @@ end
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/f079da80-b23f-4e8e-b147-a5b89934d342)
 
-MOD 10 COUNTER:
+**MOD 10 COUNTER:**
 
 module mod(clk,rst,out);
 
@@ -240,10 +241,10 @@ end
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/12cf0249-5bff-4ae7-a942-174592aacabe)
 
-# RIPPLE CARRY COUNTER
+**RIPPLE CARRY COUNTER**
 module ripple_carry_counter(q, clk, reset);
 
 output [3:0] q;
@@ -294,9 +295,9 @@ q = d;
 
 endmodule
 
-# OUTPUT
+**OUTPUT**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/3b5d999a-62a9-49fb-99d2-e75aeabdd616)
 
-# RESULT
+**RESULT**
 Thus simulate and synthesis JK-Flipflop, SR-Flipflop, T-Flipflop, D-Flipflop And counters was succesfully executed and verified.
 

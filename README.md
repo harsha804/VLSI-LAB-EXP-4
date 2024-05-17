@@ -38,6 +38,7 @@ COUNTER
 
   
 **PROCEDURE:**
+
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -93,6 +94,7 @@ end
 endmodule
 
 **OUTPUT**
+
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-4/assets/122807039/19ef2df8-a1c8-42c9-b01a-d3f69e51b055)
 
  **JK FLIPFLOP**
